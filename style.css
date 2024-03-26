@@ -1,0 +1,83 @@
+body { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 50vh;
+    background-color: #BBFFB0;
+} 
+  
+.root { 
+    font-size: large; 
+    color: rgb(0, 0, 0); 
+    background-color: #BEF08C; 
+    padding: 0% 5% 1% 5%; 
+    text-align: center; 
+    border-radius: 5px 0;
+    margin-right: 1100px;
+    margin-top: 0px;
+} 
+  
+
+  
+input { 
+    font-size: 20px; 
+    padding-left: 10px; 
+    outline: 2px grey; 
+} 
+  
+  
+.foot { 
+    margin-bottom: 0%; 
+    display: flex; 
+    width: 100%; 
+} 
+  
+.foot>button { 
+    width: 48%; 
+    padding: 1%; 
+    margin: 1%; 
+    background-color: #90E273;
+    font-size: large; 
+}
+
+.galvene {
+    background-color: #BEF08C ;
+    min-height: 20vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 1px;
+    font-size: 50px;
+}
+
+
+
+#laiks {
+
+    color: #020202;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #data {
+ 
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .laiks1{
+      background-color: #BEF08C;
+      padding: 25px;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+      border-radius: 5px;
+      margin: 0 auto;
+      margin-left: 10px;
+      margin-top: 150px;
+  }
