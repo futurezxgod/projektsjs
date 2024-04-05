@@ -1,0 +1,30 @@
+body { 
+    width: 100%;
+    height: 100%;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 50vh;
+    background-color: #BBFFB0;
+    position: fixed;
+} 
+
+.galvene1 {
+    background-color: #BEF08C ;
+    min-height: 20vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 1px;
+    font-size: 50px;
+}
+
+.teksts1 {
+    background-color: #BEF08C;
+    text-align: center;
+    max-width: 600px;
+    position: fixed;
+    
+
+}
