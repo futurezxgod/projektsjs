@@ -22,9 +22,33 @@ body {
 
 .teksts1 {
     background-color: #BEF08C;
-    text-align: center;
-    max-width: 600px;
+    text-align: justify;
+    max-width: 500px;
     position: fixed;
-    
+    left: 5px;
+    word-wrap: break-word;
+  }
 
+
+
+.photo3 {
+    width: 33%;
+    position: fixed;
+    left: 510px;
+    bottom: 100px;
 }
+
+.teksts2 {
+    background-color: #BEF08C;
+    text-align: justify;
+    max-width: 500px;
+    position: fixed;
+    left: 1020px;
+    word-wrap: break-word;
+  }
+
+.uzturs {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+

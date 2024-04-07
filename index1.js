@@ -1,0 +1,1 @@
+alert("Lai iegūtu vairāk informācijas un kursus, lūdzu, zvaniet: +37128177098");

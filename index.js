@@ -5,15 +5,12 @@ const words = [
     "vista", 
     "bifšteks", 
     "kartupeļi",
+    "pankūka",
+    "brokoļi",
+    "spināti",
 ]; 
   
-const hints = [ 
-    "JavaScript framework", 
-    "JavaScript Framework", 
-    "Scripting Language", 
-    "Styling Library", 
-    "Styling Library", 
-]; 
+
    
 let displayWord = ""; 
   
@@ -42,7 +39,6 @@ function check() {
 function refresh() { 
     index = Math.floor(Math.random() * 5); 
     displayWord = words[index]; 
-    displayHint = hints[index]; 
     scrambleWord =  
         document.getElementById("scrambleWord"); 
     scrambleWord.innerText = 
@@ -90,3 +86,4 @@ function currentTime() {
   
   currentTime();
 // laika koda beigas
+
