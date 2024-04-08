@@ -8,9 +8,14 @@ const words = [
     "pankūka",
     "brokoļi",
     "spināti",
+    "ābols",
+    "bumbieris",
+    "olas",
+    "kukurūza",
 ]; 
   
-
+const hints = [ 
+]; 
    
 let displayWord = ""; 
   
@@ -39,6 +44,7 @@ function check() {
 function refresh() { 
     index = Math.floor(Math.random() * 5); 
     displayWord = words[index]; 
+    displayHint = hints[index]; 
     scrambleWord =  
         document.getElementById("scrambleWord"); 
     scrambleWord.innerText = 
@@ -86,4 +92,3 @@ function currentTime() {
   
   currentTime();
 // laika koda beigas
-
