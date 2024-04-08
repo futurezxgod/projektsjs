@@ -34,7 +34,7 @@ body {
 .photo3 {
     width: 33%;
     position: fixed;
-    left: 510px;
+    left: 520px;
     bottom: 100px;
 }
 
@@ -43,7 +43,7 @@ body {
     text-align: justify;
     max-width: 500px;
     position: fixed;
-    left: 1020px;
+    left: 1045px;
     word-wrap: break-word;
   }
 
@@ -51,4 +51,3 @@ body {
   text-align: center;
   font-family:'Courier New', Courier, monospace;
 }
-
